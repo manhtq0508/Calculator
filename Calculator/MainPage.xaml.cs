@@ -5,7 +5,7 @@
         private String expression = "";
         private String currentOperator = "";
         private String display = "0";
-        private bool nextNumber = false;
+        private bool nextNumber = false; // Whether the next number should be appended to the display or replace it
 
         public MainPage()
         {
